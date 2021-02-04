@@ -1,0 +1,21 @@
+{
+  "name": "ejemplodaw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": ".\\scripts\\build.sh && echo \"build hecho con exito\"",
+    "deploy": "npm run build && .\\scripts\\deploy.sh && echo \"deploy hecho con exito\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexTinoco969/ejemploDAW.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexTinoco969/ejemploDAW/issues"
+  },
+  "homepage": "https://github.com/AlexTinoco969/ejemploDAW#readme"
+}
